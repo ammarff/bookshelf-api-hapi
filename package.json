@@ -4,17 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start-prod": "NODE_ENV=production node ./app/server.js",
-    "start-dev": "nodemon ./app/server.js",
-    "lint": "eslint ./app"
+    "start-dev": "nodemon ./main.js",
+    "lint": "eslint ./",
+    "start": "node ./main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^21.3.0",
-    "nanoid": "^4.0.1"
+    "nanoid": "^3.3.4"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
